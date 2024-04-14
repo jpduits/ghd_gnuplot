@@ -1,0 +1,19 @@
+start gnuplot: 
+
+gnuplot
+load "scriptfile.gp"
+
+LET OP, ze de env variabele DATA_FILE op data.csv, of de file die je wil gebruiken
+
+
+In data.txt staat de csv uitvoer van data_template.ods.
+
+1(A) = sticky
+2(B) = magnet
+3(C) = overall
+4(D) = analysability
+5(E) = changeability
+6(F) = testability
+7(G) = HIDE
+8(H) = name
+9(I) = show_name
